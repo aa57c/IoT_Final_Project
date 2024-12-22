@@ -1,0 +1,33 @@
+connection from mq 135 sensor to uno:
+5v to 5v
+gnd to gnd
+ao to a0
+
+connection from dht 11 to uno:
++ to 3v
+out to D11
+- to GND
+
+connection from buzzer to uno:
+G to GND
+v to 5V
+S to 9
+
+connection from collision to uno
+G to GND
+v to 5V
+S to 3
+
+connection from lcd to uno:
+GND to GND
+VCC to 5V
+SDA to A4
+SDC to A5
+
+
+Arduino uno to esp32:
+
+Tx 1 -> D16
+Rx 0 -> D17
+GND -> GND
+5v  -> VNN

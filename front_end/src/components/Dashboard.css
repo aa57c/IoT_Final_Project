@@ -1,0 +1,62 @@
+.dashboard {
+    width: 100%;
+    text-align: center;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pie-chart-container {
+    width: 20%;
+}
+.pie-sensor-readings{
+    display: grid;
+    justify-content: center;
+}
+.pie-chart{
+    width: "180px";
+    height: "180px"
+}
+
+.sensor-status {
+    width: 35%;
+}
+.sensor-reading {
+    padding: 25px;
+    margin: 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.readings-emergencyalert{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Common styles for alerts */
+.alert {
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Specific styles for each type of alert */
+.alert-collision {
+    background-color: red;  /* Red color for collision alerts */
+}
+
+.alert-emergency {
+    background-color: orange;  /* Orange color for emergency alerts */
+}
+
+/* Optional: add hover effect or other styling */
+.alert:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
