@@ -43,3 +43,6 @@ The system consists of:
 2. Deploy the Node.js backend and React-based web dashboard.
 3. Configure the ESP32 for Wi-Fi and Bluetooth communication.
 4. Monitor safety metrics and alerts via the web dashboard or the helmet's local displays.
+
+## Demo
+You can find the demo of this project using this link: https://youtu.be/157T500kwEQ
